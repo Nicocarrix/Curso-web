@@ -3,11 +3,11 @@
 */
 
 body {
-    background-color: rgb(117, 119, 119);
+    background-color: rgb(57, 62, 70);
 }
 
 #Titulo1 {
-    color: darkblue;
+    color: rgb(255, 211, 105);
     font-family: 'Saira Condensed', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -15,7 +15,7 @@ body {
 }
 
 #Titulo2 {
-    color: black;
+    color: rgb(238, 238, 238);
     font-family: 'Saira Condensed', sans-serif;
     font-size: 30px;
     font-weight: 300;
@@ -29,7 +29,7 @@ li {
 li a{
     text-decoration: none;
     font-size: 24px;
-    color: rgb(0, 0, 0);
+    color: rgb(238, 238, 238);
     font-family: 'Merriweather Sans', sans-serif;
     list-style: none
 }
@@ -38,7 +38,7 @@ li a{
     font-family: 'Saira Condensed', sans-serif;
     font-size: 45px;
     font-weight: 700;
-    color: darkblue;
+    color: rgb(255, 211, 105);
 }
 
 .Caja {
@@ -46,6 +46,7 @@ li a{
     font-family: 'Saira Condensed', sans-serif;
     font-weight: 300;
     font-size: 24px;
+    color: rgb(238, 238, 238);
 
 }
 
@@ -53,10 +54,12 @@ p {
     font-size: 23px;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 500;
+    color: rgb(238, 238, 238);
 }
 
-h2 {
+h1 {
     font-family: 'Saira Condensed', sans-serif;
+    color: rgb(255, 211, 105);
    
 
 }
@@ -65,11 +68,12 @@ a {
     font-family: 'Saira Condensed', sans-serif;
     list-style: none;
     text-decoration: none;
-    color: black;
+    color: rgb(238, 238, 238);
 }
 
 .Cuestionario {
     font-family: 'Saira Condensed', sans-serif;
+    color: rgb(238, 238, 238);
 
 }
 
