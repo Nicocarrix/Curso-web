@@ -1,0 +1,76 @@
+/* 
+
+*/
+
+body {
+    background-color: rgb(117, 119, 119);
+}
+
+#Titulo1 {
+    color: darkblue;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+#Titulo2 {
+    color: black;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+li {
+    list-style: none;
+    
+}
+
+li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: 'Merriweather Sans', sans-serif;
+    list-style: none
+}
+
+#Titulo3 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: darkblue;
+}
+
+.Caja {
+    list-style: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+
+}
+
+p {
+    font-size: 23px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Saira Condensed', sans-serif;
+   
+
+}
+
+a {
+    font-family: 'Saira Condensed', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.Cuestionario {
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+
