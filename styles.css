@@ -2,21 +2,30 @@
 
 */
 
+:root {
+    --fondo: rgb(57, 62, 70);
+    --colorTitulos:rgb(255, 211, 105);
+    --colorTextos:rgb(238, 238, 238);
+
+    --fuenteUno: 'Saira Condensed', sans-serif;
+    --fuenteDos: 'Merriweather Sans', sans-serif;
+}
+
 body {
-    background-color: rgb(57, 62, 70);
+    background-color: var(--fondo)
 }
 
 #Titulo1 {
-    color: rgb(255, 211, 105);
-    font-family: 'Saira Condensed', sans-serif;
+    color: var(--colorTitulos);
+    font-family: var(--fuenteUno);
     font-size: 30px;
     font-weight: 700;
     
 }
 
 #Titulo2 {
-    color: rgb(238, 238, 238);
-    font-family: 'Saira Condensed', sans-serif;
+    color: var(--colorTextos);
+    font-family: var(--fuenteUno);
     font-size: 30px;
     font-weight: 300;
 }
@@ -29,51 +38,51 @@ li {
 li a{
     text-decoration: none;
     font-size: 24px;
-    color: rgb(238, 238, 238);
-    font-family: 'Merriweather Sans', sans-serif;
+    color: var(--colorTextos);
+    font-family: var(--fuenteDos);
     list-style: none
 }
 
 #Titulo3 {
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: var(--fuenteUno);
     font-size: 45px;
     font-weight: 700;
-    color: rgb(255, 211, 105);
+    color: var(--colorTitulos);
 }
 
 .Caja {
     list-style: none;
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: var(--fuenteUno);
     font-weight: 300;
     font-size: 24px;
-    color: rgb(238, 238, 238);
+    color: var(--colorTextos);
 
 }
 
 p {
     font-size: 23px;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: var(--fuenteDos);
     font-weight: 500;
-    color: rgb(238, 238, 238);
+    color: var(--colorTextos);
 }
 
 h1 {
-    font-family: 'Saira Condensed', sans-serif;
-    color: rgb(255, 211, 105);
+    font-family: var(--fuenteUno);
+    color: var(--colorTitulos);
    
 
 }
 
 a {
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: var(--fuenteUno);
     list-style: none;
     text-decoration: none;
-    color: rgb(238, 238, 238);
+    color: var(--colorTextos);
 }
 
 .Cuestionario {
-    font-family: 'Saira Condensed', sans-serif;
-    color: rgb(238, 238, 238);
+    font-family: var(--fuenteUno);
+    color: var(--colorTextos);
 
 }
 
