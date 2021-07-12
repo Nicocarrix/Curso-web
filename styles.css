@@ -86,4 +86,9 @@ a {
 
 }
 
+#boxing {
+    background-color: var(fondo);
+    height: 60px;
+}
+
 
