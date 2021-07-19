@@ -2,24 +2,52 @@
 
 */
 
+/*.boxing {
+    background-color: transparent;
+    height: 39px;
+    width: 180px;
+    padding: 10px;
+    /* overflow: scroll;
+    margin: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.76);
+    border-radius: 3px;
+    
+    
+   
+}
+
+/*.nashe {
+    color: rgb(255, 255, 255, 0.76);
+    margin: 0px;
+    padding: 9px 9px 11px 9px;
+    font-size: 17px;
+    text-align: center;
+    
+}*/
+
 :root {
-    --fondo: rgb(57, 62, 70);
-    --colorTitulos:rgb(255, 211, 105);
-    --colorTextos:rgb(238, 238, 238);
+    --fondo: #181a1f;
+    --colorTitulos:rgb(255, 255, 255);
+    --colorTextos:rgb(255, 255, 255);
+    --colorElementos:rgba(4, 235, 158, 0.596);
 
     --fuenteUno: 'Saira Condensed', sans-serif;
     --fuenteDos: 'Merriweather Sans', sans-serif;
+    --fuenteTres: 'Open Sans', sans-serif;
+    --fuenteCuatro: 'Fugaz One', sans-serif;
 }
 
 body {
-    background-color: var(--fondo)
+    background-color: var(--fondo);
+    margin: 0px;
 }
 
 #Titulo1 {
     color: var(--colorTitulos);
-    font-family: var(--fuenteUno);
+    font-family: var(--fuenteTres);
     font-size: 30px;
     font-weight: 700;
+    width: 100%;
     
 }
 
@@ -86,9 +114,163 @@ a {
 
 }
 
-#boxing {
-    background-color: var(fondo);
-    height: 60px;
+.navbar {
+    background-color: #fd3c3d;
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 8px 0;
+       
 }
+
+.contenedor {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    align-items: center;
+ }
+    
+    
+.navlista {
+    display: flex;
+     width: 100%;
+     justify-content: end;
+    
+}
+
+.navul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+  }
+
+ .navli {
+     display: flex;
+     justify-content: space-between;
+     width: 50%;
+   
+ }
+
+.imgtraining {
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    background-image: url("C:/Users/nicko/Desktop/CURSO DISEÑO WEB/Master Training/Curso-web/imagenes/musculos.jpeg");
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.cuadroDeTexto {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.personalt {
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Fugaz One', cursive;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.transformate {
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 78px;
+    font-weight: normal;
+    line-height: 78px;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'Fugaz One', cursive;
+    margin: 0;
+}
+
+.lorem {
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 27px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.boxPadre {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    
+}
+
+.boxHijo1 {
+    display: flex;
+    height: 420px;
+    width: 350px;
+    margin-right: 5px;
+    align-items: center;
+    background-image: url("imagenes/nivelinicial.jpeg");
+    background-size: cover;
+
+}
+
+.boxHijo2 {
+    display: flex;
+    height: 420px;
+    width: 350px;
+    margin-right: 5px;
+    background-image: url("imagenes/nivelintermedio.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.boxHijo3 {
+    display: flex;
+    height: 420px;
+    width: 350px;
+    background-image: url("imagenes/nivelavanzado.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+.separar {
+    height: 600px;
+    background-color: var(--fondo);
+}
+
+
+
+
+
+
+
+
+    
 
 
